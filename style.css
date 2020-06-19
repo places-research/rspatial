@@ -1,0 +1,76 @@
+body {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+h1, h2 {
+  font-weight: normal;
+  color: #2c3e50;
+  position: left;
+  font-size: 30px;
+}
+
+.title {
+  font-size: 47px;
+  color: #4b856a;
+}
+
+h3,h4,h5 {
+  text-align: left;
+}
+
+.inverse {
+  background-color: #96ceb4;
+}
+.inverse, .inverse h1, .inverse h2, .inverse h3, .inverse a, inverse a > code {
+  color: #2c3e50;
+}
+
+.blue-box {
+  background-color: #e6f0ff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.green-box {
+  background-color: #96ceb4;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.orange-box {
+  background-color: #ffeedf;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.info-box {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  background: #f5f5f5 5px center/3em no-repeat;
+}
+
+.caution {
+  background-image: url("img/caution.png");
+}
+
+.warning {
+  background-image: url("img/warning.png");
+}
+
+.tip {
+  background-image: url("img/tip.png");
+}
+
+.note {
+  background-image: url("img/note.png");
+}
+
+.important {
+  background-image: url("img/important.png");
+}
